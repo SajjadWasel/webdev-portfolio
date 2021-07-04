@@ -1,12 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 p {
     color:#69697F;
 }
 
-#landing {
+section {
+    margin-bottom: 120px;
     display: flex;
 }
 
@@ -16,15 +18,19 @@ p {
     padding-right: 5%;
 }
 
-#landing h1 {
+.half-width img {
+    width: 95%;
+}
+
+.half-width h1 {
     font-size: 52px;
 }
 
-#landing h1 span {
+.half-width  h1 span {
     color: orange;
 }
 
-#landing a {
+.half-width  a {
     text-decoration: none;
     color: #fff;
     padding: 10px 40px;
@@ -32,8 +38,16 @@ p {
     background-image: linear-gradient(to right, salmon,tomato);
 }
 
-#landing .half-width img {
-    width: 95%;
-    
+
+#landing {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
+
+#about {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 
